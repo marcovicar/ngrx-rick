@@ -48,6 +48,7 @@ body {
 
 .card {
     /* Add shadows to create the "card" effect */
+    border-radius: 5px;
     display: block;
     position: relative;
     width: 75%;
