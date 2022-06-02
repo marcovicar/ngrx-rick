@@ -5,19 +5,26 @@
 }
 
 body {
-    background-image: url("img/rickandmorty.jpg");
+    /*background-image: url("img/opening.gif");
     background-size: cover;
+    background-color: #f7fc00;
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;*/
+    background: rgb(255, 252, 0);
+    background: radial-gradient(circle, rgba(255, 252, 0, 1) 10%, rgba(23, 131, 36, 1) 37%, rgba(139, 207, 33, 1) 65%, rgba(10, 7, 48, 1) 84%);
+    background-color: rgba(10, 7, 48, 1);
 }
 
 .buttons {
     border: 1px solid #24325fff;
-    margin: auto;
-    width: 900px;
-    height: 40px;
+    margin: 20px;
+    padding: 10px;
 }
 
 .btnBar {
     margin: 0 5px;
+    padding: 6px;
     background-color: #f0f0f0;
     border: black 2px;
     text-decoration: none;
@@ -38,6 +45,7 @@ body {
     border: 10px;
     padding: 10px;
     margin: 10px;
+    justify-content: center;
 }
 
 .box {
@@ -65,19 +73,20 @@ body {
 /* On mouse-over, add a deeper shadow */
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 #8BCF21;
+    box-shadow: 0 8px 16px 0 #8bcf21;
 }
 
 #title {
     color: #96c8ecff;
-    text-shadow: 0 0 5px #000000, 0 0 6px #8BCF21;
+    text-shadow: 0 0 5px #000000, 0 0 6px #8bcf21;
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-size: 40px;
 }
 
 #title:hover {
-    text-shadow: 0 0 6px #000000, 0 0 12px #8BCF21;
+    text-shadow: 0 0 18px #000000, 0 0 20px #8bcf21;
 }
 
 
